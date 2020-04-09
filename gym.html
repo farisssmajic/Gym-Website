@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: black;
+            font: bold;
+            font-size: 20px;
+            margin: 0px;
+            padding: 0px;
+            background: url('images/gym1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Impact, sans-serif;
+
+
+        }
+
+        .left {
+            position: absolute;
+            display: inline-block;
+            left: 34px;
+
+            top: 20px;
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .left div {
+            text-align: center;
+            border-style: groove;
+            background-color: white;
+            font-size: 15px;;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 12px auto;
+            
+            top: 20px;
+        }
+
+        .right {
+            position: absolute;
+            top: 0px;
+            right: 34px;
+            display: inline-block;
+            top: 20px;
+            font:bold;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+            padding: 15px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: black;
+            font-size: larger;
+        }
+
+        .btn {
+            padding: 10px;
+            cursor: pointer;
+            font-size: large;
+            color:black;
+            
+        }
+
+        .btn:hover {
+            text-decoration: underline;
+            color: black;
+            font-size: larger;
+        }
+
+        .container {
+            font-size: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 100px 100px 10px;
+            padding: 50px 50px: font: outline;
+            font: bold;
+            background-color: white;
+            color: black;
+            display: inline-block;
+
+        }
+
+        .signup {
+            font-size: larger;
+            font: message-box;
+            margin: 20px 100px 50px;
+            padding: 50px 50px: cursor: pointer;
+        }
+        .signup:hover{
+            text-decoration: underline;
+            color: black;
+            font-size: larger;
+
+        }
+
+        .formgroup input {
+            display: block;
+            font-size: 50x;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 5px 20px 5px 100px;
+            border: 100px;
+            width: 300px;
+            border-radius: 25px;
+            ;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src='images/gym2.jpg'>
+            <div>FITNESS HOUSE</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#" class="active">ABOUT US</a></li>
+                <li><a href="#" class="active">FITNESS CALCULATOR</a></li>
+                <li><a href="#" class="active">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email us</button>
+
+        </div>
+
+    </header>
+    <div class="container">Step Up Your Fitness Challenge with Us</div>
+    <form action="no action.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="formgroup"> <input type="text" name="" placeholder="Enter your name"></div>
+        <div class="formgroup"> <input type="text" name="" placeholder="Enter your age"></div>
+        <div class="formgroup"> <input type="text" name="" placeholder="Enter your gender"></div>
+
+
+        <button class="signup">SIGN UP</button>
+    </form>
+
+</body>
+
+</html>
