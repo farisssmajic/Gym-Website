@@ -1,10 +1,6 @@
 # Gym-Website
 Basic Webpage using HTML and CSS
 
-### Run this website by 
-```html
-
-```
 ### Contributing
 
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
