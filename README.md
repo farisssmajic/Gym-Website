@@ -1,5 +1,6 @@
 # Gym-Website
 Basic Webpage using HTML and CSS
+/appveyor/build/:user/:repo
 
 ### Contributing
 
